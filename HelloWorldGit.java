@@ -1,7 +1,7 @@
 Class HelloWorld
 {
 
-	void displayDate()
+	static void displayDate()
 	{
 		System.out.println("Display today's date:-");
 	}
@@ -10,6 +10,8 @@ Class HelloWorld
 	public Static void main(String[] args)
 	{
 		System.out.println("Hello World.....Welcome to GIT");
+		displayDate());
+		
 	}
 
 

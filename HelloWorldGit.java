@@ -1,7 +1,7 @@
 Class HelloWorld
 {
 
-	void displayDate()
+	static void displayDate()
 	{
 		System.out.println("Display today's date:-");
 	}
@@ -11,9 +11,8 @@ Class HelloWorld
 	{
 		System.out.println("Hello World.....Welcome to GIT");
 
-		helloWorld Obj=new HelloWorld();
-		obj.HelloWorld();
+		displayDate());
+		
 	}
-
 
 }
